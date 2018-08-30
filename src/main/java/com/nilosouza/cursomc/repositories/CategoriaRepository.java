@@ -1,5 +1,6 @@
 package com.nilosouza.cursomc.repositories;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import com.nilosouza.cursomc.domain.Categoria;
