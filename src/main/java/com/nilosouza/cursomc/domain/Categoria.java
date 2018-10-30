@@ -25,12 +25,12 @@ public class Categoria implements Serializable {
 	public Categoria() {
 		
 	}
-
-	public Categoria(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
+	
+	public Categoria(Integer id, String nome) {
+ 		super();
+ 		this.id = id;
+ 		this.name = nome;
+ 	}
 
 	public int getId() {
 		return id;
